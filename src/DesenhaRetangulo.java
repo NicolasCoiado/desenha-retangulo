@@ -4,7 +4,7 @@ public class DesenhaRetangulo {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o número de linhas (máx 20 linhas): ");
         int l = sc.nextInt();
-        System.out.print("Digite o número de linhas (máx 20 colunas): ");
+        System.out.print("Digite o número de colunas (máx 20 colunas): ");
         int c = sc.nextInt();
         desenhar(l, c);
         sc.close();
